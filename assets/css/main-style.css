@@ -14,7 +14,7 @@
 */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: 'Open Sans', sans-serif !important;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -1086,10 +1086,10 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif !important;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #000000;
+  color: #787878;
   background-color: #ffffff;
 }
 input,
@@ -1188,8 +1188,8 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 600;
   line-height: 1.1;
   color: inherit;
 }
@@ -1604,6 +1604,7 @@ pre code {
 .row {
   margin-left: -15px;
   margin-right: -15px;
+  max-width: 100%;
 }
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
@@ -5840,7 +5841,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif !important;
   font-size: 12px;
   font-weight: normal;
   line-height: 1.4;
@@ -5947,7 +5948,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif !important;
   font-size: 14px;
   font-weight: normal;
   line-height: 1.42857143;
@@ -6804,7 +6805,7 @@ body {
 /* force scrollbar */
 html { overflow-y: scroll; }
 
-body { font-family: 'Montserrat', sans-serif !important; }
+body {   font-family: 'Open Sans', sans-serif !important; }
 
 /* ---- grid ---- */
 
@@ -7366,15 +7367,14 @@ input{
   border-top: 2px solid #116089;
 }
 
-#publicaciones .thumbnail-blog{
+.thumbnail-blog{
   border-top: 4px solid #116089;
 }
 
-#publicaciones .thumbnail-blog img{
+.thumbnail-blog img{
   width: 100%;
 }
-
-#publicaciones .title-blog{
+.title-blog{
   text-align: center;
   padding: 27px 12px;
   background-color: rgba(61, 155, 233, 0.72);
@@ -7536,7 +7536,11 @@ footer {
   color: #116089;
 }
 
+<<<<<<< HEAD
 #form{
+=======
+.content-page{
+>>>>>>> master
   padding: 50px 0px 100px;
 }
 
@@ -7549,6 +7553,41 @@ footer {
   padding: 20px;
 }
 
+<<<<<<< HEAD
+=======
+#perfil .nav-tabs > li.active > a, #perfil .nav-tabs > li.active > a:hover, #perfil .nav-tabs > li.active > a:focus{
+  color: #ffffff;
+  background-color: #116089;
+  border: 1px solid #116089;
+  font-weight: 600;
+}
+
+#perfil .nav-tabs {
+    border-bottom: 4px solid #116089;
+}
+
+#perfil .nav > li > a:hover, #perfil .nav > li > a:focus{
+  background-color: transparent;
+  color: #116089;
+  font-weight: 600;
+}
+
+#perfil .nav-tabs > li > a{
+  border-color: #eeeeee #eeeeee #dddddd;
+  font-weight: 600;
+  border-bottom: 0px;
+  margin-bottom: 1px;
+}
+
+#perfil .tab-content{
+  padding: 30px;
+}
+
+.cont-tabs{
+  margin-top: 20px;
+}
+
+>>>>>>> master
 @media (max-width: 991px) {
   .flogos{
     margin-bottom: 10px;
