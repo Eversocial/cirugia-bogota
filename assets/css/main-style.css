@@ -7178,6 +7178,7 @@ transition-timing-function: ease-out;
 
 .cont-logo-site{
   padding-left: 26px;
+  width:114px;
 }
 
 .text-destacado{
@@ -7275,7 +7276,11 @@ input{
 }
 
 .cont-redestop{
-  padding-right: 62px;
+  padding-right: 38px;
+}
+
+.cont-text-header{
+  padding: 9px 0px;
 }
 
 .text-topmenu{
@@ -7721,6 +7726,13 @@ footer {
 .cont-btn-servicios{
   margin-top: 30px;
   text-align: center;
+}
+
+.title-logo{
+  float: right;
+  font-size: 16px !important;
+  padding: 18px 4px !important;
+  margin-bottom: 0px !important;
 }
 
 @media (max-width: 991px) {
