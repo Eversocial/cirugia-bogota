@@ -7040,18 +7040,20 @@ transition-timing-function: ease-out;
   color: #fff!important;
 }
 
-#ourclients{
+#convenios{
   padding-bottom:30px;
-  padding-top:60px;
-  background: rgb(176, 30, 58);
+  padding-top:25px;
+  background: #3d9be9;
 }
 
-.title-ourclients{
-  text-align:center;
-  margin-top:0px;
-  margin-bottom:40px;
-  text-transform:uppercase;
-  color:rgba(255,255,255,0.9);
+#convenios h2{
+  text-align: center;
+  color: white;
+}
+
+#convenios hr{
+  border-top: 2px solid white;
+  width: 60px;
 }
 
 .indicador {
@@ -7073,26 +7075,26 @@ transition-timing-function: ease-out;
   color: white;
 }
 
-/*#ourclients .cont-logo-client{
+#convenios .cont-logo-client{
   text-align: center;
-  height: 40px;
-  //transform: skew(-20deg,0deg); border-right: 1px solid rgba(255,255,255,0.25);
+  height: 70px;
+  border-right: 1px solid rgba(255,255,255,0.25);
 }
 
-#ourclients .cont-logo-client:last-child{
+#convenios .cont-logo-client:last-child{
   border-right-style: hidden;
-}*/
+}
 
-
-
-#ourclients .cont-logo-client img{
+#convenios .cont-logo-client img{
   margin: 0 auto;
-  /*display: inline-block;
-  margin-top: -16px;
-  /* transform: skew(20deg,0deg); */
-  /* vertical-align: middle; */
-  /* position: absolute; */
-  /* left: 0; */
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  left: 0;
+}
+
+#convenios .cont-logos{
+  padding: 40px 0px;
 }
 
 .flogos{
@@ -7112,7 +7114,7 @@ transition-timing-function: ease-out;
  	-o-transition: 2s ease; /* Opera */
 }
 
-#ourclients .collapsed .fa-angle-up{
+#convenios .collapsed .fa-angle-up{
   transform : rotate(180deg);
 	-moz-transform : rotate(180deg); /* Firefox */
 	-webkit-transform : rotate(180deg); /* Chrome - Safari */
@@ -7536,11 +7538,7 @@ footer {
   color: #116089;
 }
 
-<<<<<<< HEAD
-#form{
-=======
 .content-page{
->>>>>>> master
   padding: 50px 0px 100px;
 }
 
@@ -7553,8 +7551,6 @@ footer {
   padding: 20px;
 }
 
-<<<<<<< HEAD
-=======
 #perfil .nav-tabs > li.active > a, #perfil .nav-tabs > li.active > a:hover, #perfil .nav-tabs > li.active > a:focus{
   color: #ffffff;
   background-color: #116089;
@@ -7587,7 +7583,146 @@ footer {
   margin-top: 20px;
 }
 
->>>>>>> master
+#perfil .panel-default > .panel-heading {
+  color: #333333;
+  background-color: transparent;
+  border-color: transparent;
+  padding: 0px;
+}
+
+#perfil .panel-heading .panel-title > a.collapsed {
+    background: whitesmoke;
+    color: black;
+}
+
+#perfil .panel-heading .panel-title > a.collapsed:hover, #perfil .panel-heading .panel-title > a:hover {
+    color: #ffffff;
+    background-color: #116089;
+}
+
+#perfil .panel-heading .panel-title > a {
+    display: block;
+    background-color: #116089;
+    padding: 17px;
+    color: white;
+    font-size: 14px;
+}
+
+#perfil .panel-heading .panel-title > a:after {
+    color: #ffffff;
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f107";
+    font-size: 24px;
+    position: absolute;
+    text-align: center;
+    right: 12px;
+    margin-top: -4px;
+    width: 50px;
+    letter-spacing: 0;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+#perfil .panel-heading .panel-title > a.collapsed:after {
+    color: #3c3c3c;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
+    margin-top: 0;
+}
+
+.subtilte-page{
+  text-align: center;
+  color: #116089;
+}
+
+#servicios hr{
+  width: 130px;
+  border-top: 2px solid #116089;
+  margin-bottom: 50px;
+}
+
+.tab-pane h3{
+  margin-top: 0px;
+  color: #116089;
+  margin-bottom: 25px;
+}
+
+.menu-services .nav > li > a {
+  position: relative;
+  display: block;
+  padding: 18px 25px;
+  margin-bottom: 10px;
+  border: 1px solid;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.menu-services .nav > li.active a {
+  background: #116089;
+  color: white;
+  font-weight: 600;
+}
+
+.menu-services .nav > li > a:hover, .menu-services .nav > li > a:focus {
+  text-decoration: none;
+  background-color: #116089;
+  color: white;
+  font-weight: 600;
+  transition: all 0.2s linear 0s;
+}
+
+.menu-services .nav > li > a:after{
+  color: #02b8bf;
+  font: normal normal normal 14px/1 FontAwesome;
+  content: "\f090";
+  position: absolute;
+  font-size: 17px;
+  line-height: 58px;
+  text-align: center;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 60px;
+  border-left: 1px solid #02b8bf;
+}
+
+.menu-services .nav > li.active > a:after{
+    color: white;
+    border-left: 1px solid white;
+}
+
+.menu-services .nav > li:hover > a:after{
+    color: white;
+    border-left: 1px solid white;
+    transition: all 0.15s linear 0s;
+}
+
+#servicios .btn-cita {
+    color: white;
+    background-color: #116089;
+    border-radius: 3px;
+    padding: 7px 30px;
+    font-size: 16px;
+    text-transform: initial;
+    margin: 7px;
+}
+
+#servicios .btn-cita:hover{
+  background-color: #156e9c;
+}
+
+.cont-btn-servicios{
+  margin-top: 30px;
+  text-align: center;
+}
+
 @media (max-width: 991px) {
   .flogos{
     margin-bottom: 10px;
