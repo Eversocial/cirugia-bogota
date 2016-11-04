@@ -8,9 +8,20 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
       <link href="../assets/css/main-style.css" rel="stylesheet" type="text/css">
+      <link href="../assets/css/owl.carousel.css" rel="stylesheet" type="text/css">
       <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
       <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="../assets/js/owl.carousel.js"></script>
+      <script>
+      $(document).ready(function(){
+
+      $('.owl-carousel').owlCarousel();
+
+
+      });
+
+      </script>
   </head>
   <body>
     <section id="nav" >
@@ -50,13 +61,14 @@
                           <a href="#">Perfil profesional</a>
                       </li>
                       <li>
-                          <a href="#">Servicios</a>
+                          <a href="../servicios">Servicios</a>
                       </li>
                       <li>
                           <a href="#">Publicaciones</a>
                       </li>
-                      <li >
+                      <li class="dropdown" >
                           <a href="../contacto">Contacto</a>
+                          <ul class="dropdown-menu"><li><a href="../faq">Preguntas frecuentes</a></li></ul>
                       </li>
                   </ul>
                 </div>
@@ -134,6 +146,51 @@
              				</div>
              			</div>
               </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="convenios">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Convenios</h2>
+            <hr>
+            <div class="row cont-logos owl-carousel">
+              <div class="cont-logo-client">
+                  <img src="../assets/img/logo-allianz.png" class="img-responsive">
+              </div>
+              <div class="cont-logo-client">
+                  <img src="../assets/img/logo-axa-colpatria.png" class="img-responsive">
+              </div>
+              <div class="cont-logo-client">
+                  <img src="../assets/img/logo-compensar.png" class="img-responsive">
+              </div>
+              <div class="cont-logo-client">
+                  <img src="../assets/img/logo-coomeva.png" class="img-responsive">
+              </div>
+              <div class="cont-logo-client">
+                  <img src="../assets/img/logo-ecopetrol.png" class="img-responsive">
+              </div>
+              <div class="cont-logo-client">
+                  <img src="../assets/img/logo-generali.png" class="img-responsive">
+              </div>
+              <div class="cont-logo-client">
+                  <img src="../assets/img/logo-liberty.png" class="img-responsive">
+              </div>
+              <div class="cont-logo-client">
+                  <img src="../assets/img/logo-mapfre.png" class="img-responsive">
+              </div>
+              <div class="cont-logo-client">
+                  <img src="../assets/img/logo-metlife.png" class="img-responsive">
+              </div>
+              <div class="cont-logo-client">
+                  <img src="../assets/img/logo-panamericanlife.png" class="img-responsive">
+              </div>
+              <div class="cont-logo-client">
+                  <img src="../assets/img/logo-seguros-bolivar.png" class="img-responsive">
+              </div>
+            </div>
           </div>
         </div>
       </div>
